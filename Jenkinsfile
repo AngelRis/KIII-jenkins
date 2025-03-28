@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("angelris/kiii-jenkins")
+        app = docker.build("angelristeski2/kiii-jenkins")
     }
 
     stage('Push image') {
